@@ -1,0 +1,11 @@
+Sector,Asset Name,Ticker,Asset Type,Live Price (USD),Daily % Change,Market Cap,Key Metric / Baseline
+AI & Computing / Technology,NVIDIA Corp.,NVDA,Stock,"=IFERROR(GOOGLEFINANCE(""NVDA"", ""price""), ""N/A"")","=IFERROR(GOOGLEFINANCE(""NVDA"", ""changepct"")/100, ""N/A"")","=IFERROR(GOOGLEFINANCE(""NVDA"", ""marketcap""), ""N/A"")",Mega-cap AI GPU leader
+AI & Computing / Technology,Broadcom Inc.,AVGO,Stock,"=IFERROR(GOOGLEFINANCE(""AVGO"", ""price""), ""N/A"")","=IFERROR(GOOGLEFINANCE(""AVGO"", ""changepct"")/100, ""N/A"")","=IFERROR(GOOGLEFINANCE(""AVGO"", ""marketcap""), ""N/A"")",Custom AI silicon ASIC contracts
+AI & Computing / Technology,Carrier Global,CARR,Stock,"=IFERROR(GOOGLEFINANCE(""CARR"", ""price""), ""N/A"")","=IFERROR(GOOGLEFINANCE(""CARR"", ""changepct"")/100, ""N/A"")","=IFERROR(GOOGLEFINANCE(""CARR"", ""marketcap""), ""N/A"")",Data Center Liquid & HVAC Cooling
+AI & Computing / Technology,Vertiv Holdings Co,VRT,Stock,"=IFERROR(GOOGLEFINANCE(""VRT"", ""price""), ""N/A"")","=IFERROR(GOOGLEFINANCE(""VRT"", ""changepct"")/100, ""N/A"")","=IFERROR(GOOGLEFINANCE(""VRT"", ""marketcap""), ""N/A"")",$15B critical power order backlog
+AI / DePIN,Bittensor,TAO,Crypto,API (CoinGecko),-,~2.5-5B MC,Decentralized AI subnet network
+AI / DePIN,Near Protocol,NEAR,Crypto,API (CoinGecko),-,~3-5B MC,AI agent execution layer
+Real World Assets,Chainlink,LINK,Crypto,API (CoinGecko),-,~8-9.5B MC,Institutional RWA oracle standard
+Real World Assets,Ondo Finance,ONDO,Crypto,API (CoinGecko),-,~1.6-2.2B MC,Tokenized US Treasuries leader
+Minerals & Metals,Freeport-McMoRan Inc.,FCX,Stock,"=IFERROR(GOOGLEFINANCE(""FCX"", ""price""), ""N/A"")","=IFERROR(GOOGLEFINANCE(""FCX"", ""changepct"")/100, ""N/A"")","=IFERROR(GOOGLEFINANCE(""FCX"", ""marketcap""), ""N/A"")",Global AI electrification copper producer
+Energy,Global X Uranium ETF,URA,ETF,"=IFERROR(GOOGLEFINANCE(""URA"", ""price""), ""N/A"")","=IFERROR(GOOGLEFINANCE(""URA"", ""changepct"")/100, ""N/A"")","=IFERROR(GOOGLEFINANCE(""URA"", ""marketcap""), ""N/A"")",Nuclear & clean baseline power ETF
